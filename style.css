@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 202, 202);
+}
+.social{
+    height: 55px;
+    background-color: rgb(133, 133, 185);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo{
+    display: flex;
+
+    gap: 15px;
+    align-items: center;
+}
+.logo i{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.logo2{
+    width: 55px;
+    height: 55px;
+}
+.icon i{
+    margin-right: 15px;
+    color: white;
+}
+.icon i:hover{
+    opacity: 0.8;
+}
+
+
+
+.container{
+    width: 80%;
+    margin:auto;
+   
+    
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px 2px rgba(20, 0, 10, 0.15);
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+#ana a{
+    color:black;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+
+#headerpic{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: -1;
+}
+header span{
+    background: #009688;
+    height: 400px;
+    width: 25%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    clip-path: polygon(0 5%, 100% 0, 90% 100%, 0% 100%);
+    transition: 0.5s;
+    opacity: 0.4;
+}
+
+span:hover{
+    background: #009688;
+    width: 27%;
+}
+.text{
+    position: absolute;
+   top: 10%;
+   left: 0;
+   transform: translate(30%,30%);
+}
+.text p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+button{
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: orange;
+    font-size: 20px;
+    transition: all 0.5s;
+    border: none;
+}
+button:hover{
+    background-color: #fff;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button a:hover {
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.search input{
+    width: 90%;
+    height: 100%;
+    border-color: white;
+    padding: auto;
+
+  
+}
+
+ .search {
+    width: 630px;
+    color: #838383;
+    background-color: #fff;
+    height: 40px;
+    padding:10px 40px;
+    margin-top:2%;
+    border: 2px solid #0573BA;
+    border: none;
+   
+   
+}
+.btn{
+    margin-top: 2%;
+    margin: auto;
+    width: 700px;
+    display:flex;
+    align-items: flex-end;
+    gap:0;
+    
+}
+.btn button{
+    width: 80px;
+    color: #fff;
+    background-color: rgb(227, 190, 121);
+    height: 40px;
+    transition: 0.5s;
+}
+.btn button:hover{
+    background-color: rgb(103, 103, 205);
+    transition: 0.5s;
+}
+section{
+    width: 100%;
+    display: flex;
+    margin-top: 5%;
+    background-color: #fff;
+    z-index: -1;
+
+}
+nav{
+    flex-basis: 30%;
+    height: 100px;
+    padding: 10px;
+   
+}
+nav ul{
+    width:100%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
+   
+
+}
+nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s;
+}
+nav li a:hover{
+    color:#fff;
+    background-color: #838383;
+    transition: all 0.5s;
+}
+i{
+    margin-right: 10px;
+}
+main{
+    height: auto;
+    width: 80%;
+    padding: 30px;
+    float: left;
+    padding: 15px;
+}   
+
+.icerik1{
+    width:48%;
+    height: 300px;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 0, 10, 0.15);
+    position: relative;
+}
+.icerik1 img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    height: 300px;
+}
+.icerik1 img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    
+    
+}
+.icerik1 span{
+    background: #009688;
+    height: 300px;
+    width: 50%;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+    transition: 0.5s;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.icerik1:hover span{
+    width: 60%;
+    transition: 0.5s;
+}
+
+.icerik1 div {
+    position: absolute;
+    left: 50%;
+    top:20%;
+    padding: 30px;
+    color: #fff;
+}
+.icerik1 div p{
+    margin-bottom: 20%;
+    
+}
+.btn3{
+    margin-top: 5%;
+   margin-left: 20%;
+    font-weight: bolder;
+    border: 1px solid #0573BA;
+    background-color:#0573BA;
+    color: white;
+    text-decoration: none;
+    padding:5px 10px;
+    border-radius: 10px;
+    
+   
+}
+.btn3:hover{
+    opacity: 0.8;
+}
+footer{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    box-shadow: 0 2px 8px 2px rgba(20, 0, 10, 0.15);
+}
+h1{
+    background-color: #0573BA;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px 5px;
+
+}
+#hakkimizdarsm{
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin: 5px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    transition: 0.5;
+}
+#hakkimizdarsm:hover{
+    opacity: 0.6;
+    width: 355px;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-family: serif;
+}
+.hakyazi{
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 40px;
+}
+
+.urun{
+    width:30%;
+    height: 300px;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 0, 10, 0.15);
+    position: relative;
+}
+.urun img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    height: 300px;
+}
+.urun img:hover{
+    width: 105%;
+    cursor: pointer;
+    
+    
+}
+.urun span{
+    background: #0930cb;
+    height: 300px;
+    width: 60%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    clip-path: polygon(0 0, 98% 0, 80% 100%, 0 100%);
+    transition: 0.5s;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+.urun:hover span{
+    width: 70%;
+    transition: 0.5s;
+}
+
+.urun div {
+    position: absolute;
+    left: 2%;
+    top:20%;
+    padding: 30px;
+    color: #fff;
+}
+.urun div p{
+    margin-bottom: 20%;
+    
+}
+.urun div a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+}
+.galrsm{
+    width: 22%;
+    height: 200px;
+    opacity: 0.7;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow:0 2px 8px 2px rgba(20, 0, 10, 0.15);
+    transition:  all 0.5s;
+    object-fit: cover;
+}
+.galrsm:hover{
+    opacity: 1;
+    border: 5px solid white;
+    cursor: pointer;
+    transition:  all 0.5s;
+
+}
+.link:link{
+    text-decoration: none;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+.section1{
+    width: 100%;
+    height: 380px;
+    margin-top: 2%;
+    padding: 10px;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+.mail{
+    float: left;
+    border: 1px solid black;
+    width: 49%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.col25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+}
+.col75{
+    width: 75%;
+    float: left;
+    margin-top: 6px;
+}
+.adres{
+    
+    border: 1px solid black;
+    width: 49%;
+    padding: 10px;
+    
+}
+label{
+    padding:  12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=text] , textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+input[type=submit]{
+    background-color: #009688;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
