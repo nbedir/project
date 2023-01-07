@@ -2,5 +2,5 @@
 
 <p>Bir ecza deposu için gerekli herşey bu projede eklenmiş durumdadır </p>
 
-ekran.mp4
+[label](ekran.mp4)
 
